@@ -14,6 +14,7 @@ Rock-Paper-Scissors is a game in which each player simultaneously shows one of t
 - `conda install ipykernel`
 - list of requirements is stored in `requirements.txt` by `pip list > requirements.txt`
 - User can install the dependencies by running `pip install requirements.txt`
+- note: the model takes a long time to run and kept printing predictions - need to ask later
 
 ## Milestone 4
 - Create a simple Rock-Paper-Scissors game in `manual_rps.py`
