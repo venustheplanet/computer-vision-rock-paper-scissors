@@ -22,3 +22,13 @@ Rock-Paper-Scissors is a game in which each player simultaneously shows one of t
 - `get_user_choice` asks user for an input
 - `get_winner` compares the computer choice and user choice and determine a winner and print the corresponding winning, losing, or tie messages
 - `play` simulates the game
+
+## Milestone 5
+- Using the camera to play rock-paper-scissors in `camera_rps.py`
+- `get_machine_output()` functions gets the machine prediction
+    - Inplemented a 3 second timer with `time.time()` in `get_machine_output()`
+- `get_predictions()` transforms the machine output from `get_machine_output()` to either 'Rock', 'Paper', or 'Scissors'
+- `get_winner()` determines the winner of the game by comparing the computer random choice and the user input choice using the camera
+- `game()` repeats game until a player has won 3 times, logic as follows:
+    - each player start with score 0, if a person wins, score is increased by 1
+    - game will continue until a person has reached 3 points. 
